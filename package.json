@@ -1,0 +1,32 @@
+{
+  "name": "generator-uservice",
+  "version": "0.1.0",
+  "description": "Generate structure and license for my microservices",
+  "homepage": "https://github.com/uci-soe/generator-uservice",
+  "author": {
+    "name": "Rhett Lowe",
+    "email": "rng2ml@gmail.com",
+    "url": "https://github.com/rhettl"
+  },
+  "license": "BSD-3-Clause",
+  "files": [
+    "generators/app",
+    "generators/bin",
+    "generators/license",
+    "generators/travis"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "deep-extend": "^0.4.1",
+    "generator-node": "github:rhettl/generator-node",
+    "html-entities": "^1.2.0",
+    "inquirer-npm-name": "^1.0.0",
+    "lodash": "^4.3.0",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
+  }
+}
