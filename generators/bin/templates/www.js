@@ -31,4 +31,4 @@ server.post('/', app.index || app);
 <% } %>
 
 
-server.listen(config.port || process.env.npm_package_config_port || 15000);
+server.listen(process.env.npm_package_config_port || 15000);
