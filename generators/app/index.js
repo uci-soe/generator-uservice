@@ -134,14 +134,16 @@ module.exports = yeoman.Base.extend({
       local: require.resolve('../travis')
     });
 
-    this.composeWith('eslint', {
-      options: {}
-    }, {
-      local: require.resolve('../eslint')
-    });
   },
 
   conflicts: {
+    customEslint: function(){
+      this.composeWith('eslint', {
+        options: {}
+      }, {
+        local: require.resolve('../eslint')
+      });
+    },
     readme: function () {
       var readme = this.fs.read(this.destinationPath('README.md'));
 
