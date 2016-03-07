@@ -1,6 +1,6 @@
 {
   "name": "generator-uservice",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Generate structure and license for my microservices",
   "homepage": "https://github.com/uci-soe/generator-uservice",
   "author": {
