@@ -133,6 +133,12 @@ module.exports = yeoman.Base.extend({
     }, {
       local: require.resolve('../travis')
     });
+
+    this.composeWith('eslint', {
+      options: {}
+    }, {
+      local: require.resolve('../eslint')
+    });
   },
 
   conflicts: {
